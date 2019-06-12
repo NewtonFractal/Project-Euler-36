@@ -10,6 +10,6 @@ def Double_base_palindromes(upper_bound,x):
         x = str(int(x)+1)
     return print(sum(Palindrome))
 
-Double_base_palindromes(1000000,str(10))
+Double_base_palindromes(1000000,str(1))
 end = time.time()
 print(end - start)
